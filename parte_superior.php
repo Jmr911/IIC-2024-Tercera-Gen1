@@ -13,10 +13,9 @@
 
 <menu>
     <div class="menu-izquierda">
-        <hr="./index.php"><img src="./images/menu.png" alt="">
-        <
-
-        <img src="./images/menu.png" alt="">
+        <a href="./index.php">
+            <img src="./images/menu.png" alt="">
+        </a>
         <p class="texto-menu-izquierda">
             La Casa de Bob
     </div>
