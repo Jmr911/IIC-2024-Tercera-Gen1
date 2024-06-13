@@ -1,0 +1,22 @@
+/* Este Codigo es para Eliminar Cualquier estilo previo */
+
+* {
+    margin:0;
+    padding:0;
+}
+.menu-izquierda {
+    background-color: coral;
+    width: 25%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-izquierda img {
+    width: 300px;
+}
+.texto-menu-izquierda{
+
+}
