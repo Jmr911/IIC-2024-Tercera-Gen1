@@ -14,9 +14,14 @@
 <menu>
     <div class="menu-izquierda">
         <a href="./index.php">
-            <img src="./images/menu.png" alt="">
+            <img src="./Images/Logo1.jpeg" alt="">
         </a>
-        <p class="texto-menu-izquierda">
-            La Casa de Bob
+   
     </div>
+    </div class= "Menu Derecha">
+    <a class="enlaces-menu-derecha" href= "https://www.google.com">Primer Ingreso</a>
+    <a class="enlaces-menu-derecha" href= "https://www.google.com">Aula En Linea</a>
+    </div>
+
+
 </menu>  
