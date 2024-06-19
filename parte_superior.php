@@ -8,20 +8,18 @@
         Tercera 1
 </title>
 <link rel="stylesheet" href="./styles/main.css">
-
 </head>
 
 <menu>
     <div class="menu-izquierda">
         <a href="./index.php">
-            <img src="./Images/Logo1.jpeg" alt="">
+            <img src=".\Images/logo1.jpeg" alt="">
         </a>
-   
     </div>
-    </div class= "Menu Derecha">
+
+    </div class= "menu-derecha">
     <a class="enlaces-menu-derecha" href= "https://www.google.com">Primer Ingreso</a>
     <a class="enlaces-menu-derecha" href= "https://www.google.com">Aula En Linea</a>
     </div>
-
 
 </menu>  
