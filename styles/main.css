@@ -9,6 +9,7 @@ menu {
     display: flex;
     flex-direction: row;
     width: 100px;
+    height: 200PX;
     margin-top: 50px;
 }
 
@@ -19,7 +20,7 @@ menu {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 300px;
 }   
 
 .menu-izquierda img {
@@ -46,6 +47,8 @@ menu {
     text-transform: uppercase;
     color: #273272;
     padding: 0px 15px 0px 15px;
+    padding-left: 300px;
+    /* padding-right: 300px; */
 }
 
 .enlaces-menu-derecha:hover{
