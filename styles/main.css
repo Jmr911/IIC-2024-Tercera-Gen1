@@ -67,6 +67,62 @@ menu {
 }
 
 
+
+.main-accordion-container {
+    width: 100%;
+    border-bottom: 4PX solid black;
+}
+
+.accordion-item {
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border-top: 2px solid black;
+}
+
+.accordion-item:hover {
+    transform: scale (1.05);
+    border: 3px solid black;
+}
+
+.accordion-title {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(215, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding:  10px 0;
+}
+
+.accordion-desc{
+    width: 100%;
+    border-top: 1px solid black;
+    display: none;
+}
+
+.accordion-title .tab-active{
+    font-size: 30px;
+    pointer-events: visible;
+}
+
+.tab-active .accordion-desc {
+    /* background-color: aqua; */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
 .titulo {
     width: 100%;
     height: 100px;
@@ -99,10 +155,22 @@ menu {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* /TRABAJAMOS RESPONSIVE/ */
 
-@media (max-width: 1025px) {
-    .menu-container{
+@media (max-width: 1025px)  {
+    .menu-container {
         width: 50%;
         height: 100%;
         display: flex;
@@ -110,6 +178,7 @@ menu {
         justify-content: flex-end;
         align-items: flex-start;
     }
+
     .menu-derecha {
         display: none;
     }
@@ -136,8 +205,8 @@ menu {
         display: block;
         border-radius: 3px;
     }
-    
-    .menu-open .menu-derecha{
+
+    .menu-open .menu-derecha {
         z-index: -2;
         width: auto;
         height: auto;
@@ -145,16 +214,23 @@ menu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color:aliceblue;
+        background-color: aliceblue;
         border: 2px solid black;
         border-radius: 15px;
-        font-size: 50px;    
+        font-size: 50px;
         padding: 10px 20px;
     }
-    .enlaces-menu-derecha{
+
+    .enlaces-menu-derecha {
         width: 100%;
         text-align: center;
         padding: 5px 0 5px 0;
     }
+
+    .main-img img {
+        width: 1140px;
+    }
+
+
 
 }
