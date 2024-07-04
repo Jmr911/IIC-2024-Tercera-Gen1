@@ -15,9 +15,15 @@
     <div class="main-accordion-container">
     </div>
 
+    <div class= 'mid-info'>
+        <p class="mid-info-title">Oferta Academica</p>
+        <p class="mid-info-title">Decidete y escoge, que quieras estudiar</p>
+    </div>
+
     <div class= 'card-list'>
     </div>
-</body>
 
+
+</body>
 
 <?php require_once "./parte_Inferior.php" ?>
